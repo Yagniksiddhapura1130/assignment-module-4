@@ -7,7 +7,7 @@ class bank
 
     int acno,damt,wamt;
     string name, type;
-    float bal;
+    float bal=50000;
 
     void details()
     {
@@ -20,7 +20,7 @@ class bank
         cout<<"enter your account type : "<<endl;
         cin>>type;
         cout<<"balance : "<<endl;
-        cin>>bal;
+        
     }
     void deposit()
     {  
