@@ -19,7 +19,7 @@ class bank
         cin>>acno;
         cout<<"enter your account type : "<<endl;
         cin>>type;
-        cout<<"balance : "<<endl;
+        cout<<"balance : "<<bal<<endl;
         
     }
     void deposit()
